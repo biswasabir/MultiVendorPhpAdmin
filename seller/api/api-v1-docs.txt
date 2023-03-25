@@ -1,0 +1,438 @@
+API URL -->> 
+        https://ecartmultivendor.wrteam.in/seller/api/api-v1.php
+
+----------------------------------------------------------
+SELLER APIs list 
+----------------------------------------------------------
+1. login
+2. get_categories
+3. get_subcategories
+4. get_products
+5. get_financial_statistics
+6. update_seller_fcm_id
+7. get_seller_transactions
+8. get_orders
+9. update_order_status
+10.add_products
+11.update_products
+12.delete_products
+13. get_seller_by_id
+14. get_taxes
+15. get_units
+16. get_pincodes
+17. delete_other_images
+18. delete_variant
+19.get_customers
+20.send_request
+21.get_requests
+22.update_seller_profile
+23.get_delivery_boys
+24.change_status
+25.add_pickup_location
+26.get_pickup_location
+27.create_shiprocket_order
+28.send_pickup_request
+29.tracker_order
+30.cancle_order
+31.get_slug
+32.get_shipping_type
+33. delete_variant_images
+34. generate_awb
+------------------------------------------
+What parameters to be Passed?  See here >>
+------------------------------------------
+
+Use POST method to pass the parameters
+
+1.login
+    accesskey:90336
+    login:1
+    mobile:9876543210
+    password:12345678
+    fcm_id:YOUR_FCM_ID  // {optional}
+
+2.get_categories
+	accesskey:90336
+    seller_id:1
+    get_categories: 1
+    offset:0           // {optional}
+    limit:10           // {optional}
+    sort:id            // {optional}
+    order:asc/desc     // {optional}    
+    search:Beverages   // {optional} 
+
+3.get_subcategories
+    accesskey:90336
+    seller_id:1
+    get_subcategories:1
+    category_id:29      // {optional}
+    subcategory_id:114  // {optional}
+    offset:0            // {optional}
+    limit:10            // {optional}
+    sort:id             // {optional}
+    order:asc/desc      // {optional}
+
+4.get_products
+	accesskey:90336
+    get_products:1
+    seller_id:1
+    filter:low_stock | out_stock  // {optional}
+    product_id:119      // {optional}
+    category_id:119     // {optional}
+    subcategory_id:119  // {optional}
+    limit:10            // {optional}
+    offset:0            // {optional}
+    sort:id             // {optional}
+    order:ASC / DESC    // {optional}
+    search:value        // {optional}
+	
+
+5. get_financial_statistics
+	accesskey:90336
+    get_financial_statistics:1
+    seller_id:1
+
+6. update_seller_fcm_id
+    accesskey:90336
+    update_seller_fcm_id:1
+    seller_id:1  
+    fcm_id:YOUR_FCM_ID
+	
+7. get_seller_transactions
+    accesskey:90336
+    get_seller_transactions:1
+    seller_id:1
+    offset:0            // {optional}
+    limit:10            // {optional}
+    sort:id             // {optional}
+    order:DESC / ASC    // {optional}
+		
+8. get_orders
+    accesskey:90336
+    get_orders:1
+    seller_id:1
+    order_id:12608          // {optional}
+    start_date:2020-06-05   // {optional} {YYYY-mm-dd}
+    end_date:2020-06-05     // {optional} {YYYY-mm-dd}
+    limit:10                // {optional}
+    offset:0                // {optional}
+    sort:id                 // {optional}
+    order:ASC/DESC          // {optional}
+    filter_order:received | processed | shipped | delivered | cancelled | returned | awaiting_payment    // {optional}
+
+
+9.update_order_status
+    accesskey:90336
+    update_order_status:1
+    order_id:169
+    seller_id:1
+    order_item_id:12577
+    delivery_boy_id:1
+    status:received | processed | shipped | delivered | cancelled | returned
+
+10.add_products
+   accesskey:90336
+    add_products:1
+    seller_id:1
+    name:chocolate-boxes            
+    category_id:31 
+    description:chocolates
+    till_status: received 
+   
+    shipping_type:standard or local 
+
+    pickup_location:mirzapur-bhuj-sector-1
+
+    delivery_places:0 OR 1 OR 2 [ 0=included, 1=excluded, 2=all ]
+    pincodes:1,4,5                 //{must blank when delivery_places=2}
+
+    indicator:0 
+    subcategory_id:115          // {optional}
+    return_days:7 {optional}
+    tax_id:4                    // {optional}
+    manufacturer:india          // {optional}
+    made_in:india               // {optional}
+    return_status:0 / 1         // {optional}
+    cancelable_status:0 / 1     // {optional}
+    till_status:received / processed / shipped           // {optional}
+    indicator:0 - none / 1 - veg / 2 - non-veg          // {optional}
+    image:FILE          
+    other_images[]:FILE
+
+    type:packet
+    measurement:500,400
+    measurement_unit_id:4,1
+    price:175,145
+    discounted_price:60,30    // {optional} 
+    serve_for:Available,sold out
+    stock:992,225
+    stock_unit_id:4,1   
+    weight:1,1.5
+    height:10,10
+    breadth:10,10
+    length:10,10
+    images[0][] : FILE           // {optional}
+    images[1][] : FILE           // {optional}         
+
+    type:loose
+    measurement:1,1
+    measurement_unit_id:1,5
+    price:100,400
+    discounted_price:20,15       // {optional}
+    serve_for:Available/Sold Out
+    stock:992
+    stock_unit_id:4
+    weight:1,1.5
+    height:10,10
+    breadth:10,10
+    length:10,10
+    images[0][] : FILE           // {optional}
+    images[1][] : FILE           // {optional}
+
+11.update_products
+    accesskey:90336
+    update_products:1
+    seller_id:1
+    id:833
+    name:chocolate-popcorn           
+    description:chocolates
+    category_id:31 
+    subcategory_id:115          // {optional}
+  
+    shipping_type:local
+    delivery_places:0 OR 1 OR 2 [ 0=included, 1=excluded, 2=all ]
+    pincodes:1,4,5                 //{must blank when delivery_places=2}
+                    OR
+    shipping_type:standard
+    pickup_location:mirzapur-bhuj-1
+  
+    return_days:7 {optional}
+    tax_id:4                    // {optional}
+    manufacturer:india          // {optional}
+    made_in:india               // {optional}
+    return_status:0 / 1         // {optional}
+    cancelable_status:0 / 1     s// {optional}
+    till_status:received / processed / shipped           // {optional}
+    indicator:0 - none / 1 - veg / 2 - non-veg          // {optional}
+    product_variant_id:510,209
+    image:FILE           //{optional}
+    other_images[]:FILE    //{optional}
+
+    type:packet
+    measurement:500,400
+    measurement_unit_id:4,1
+    price:175,145
+    discounted_price:60,30    // {optional} 
+    serve_for:Available,sold out
+    stock:992,225
+    stock_unit_id:4,1  
+    weight:1,1.5
+    height:10,10
+    breadth:10,10
+    length:10,10    
+    images[0][] : FILE           // {optional}
+    images[1][] : FILE           // {optional}      
+
+    type:loose
+    measurement:1,1
+    measurement_unit_id:1,5
+    price:100,400
+    discounted_price:20,15       // {optional}
+    serve_for:Available/Sold Out
+    stock:997
+    stock_unit_id:1
+    weight:1,1.5
+    height:10,10
+    breadth:10,10
+    length:10,10
+    images[0][] : FILE           // {optional}
+    images[1][] : FILE           // {optional}
+
+12.delete_products
+    accesskey:90336
+    delete_products:1
+    product_variants_id:668
+    product_id:879
+
+13. get_seller_by_id
+    accesskey:90336
+    get_seller_by_id:1
+    seller_id:78
+
+14. get_taxes
+    accesskey:90336
+    get_taxes:1
+    limit:10    // {optional}
+    offset:0    // {optional}
+    search:test// {optional}
+
+15. get_units
+    accesskey:90336
+    get_units:1
+
+16. get_pincodes
+    accesskey:90336
+    get_pincodes:1
+
+17. delete_other_images
+    accesskey:90336
+    delete_other_images:1
+    seller_id:1
+    product_id:1
+    image:1    // {index of other image array}
+
+18. delete_variant
+    accesskey:90336
+    delete_variant:1
+    variant_id:1
+
+19.get_customers
+	   accesskey:90336
+	   get_customers:1
+	   pincode_id:119  {optional}
+	   limit:10  {optional}
+	   offset:0    {optional}
+	   sort:id      {optional}
+	   order:ASC/DESC {optional}
+	   search:value {optional}
+
+20.send_request
+        accesskey:90336
+        send_request:1
+        type:seller
+        type_id:3
+        amount:1000
+        message:Message {optional}
+
+21.get_requests
+        accesskey:90336
+        get_requests:1
+        type:seller
+        type_id:3
+        offset:0    // {optional}
+        limit:5     // {optional}
+
+22.update_seller_profile  
+    {optional -> if not added } 
+        accesskey:90336
+        update_seller_profile:1
+        seller_id:1
+        name:ekart seller  
+        store_name:ekart seller store 
+        email:infinitietechnologies03@gmail.com
+        tax_name:GST
+        tax_number:GST6754321
+        pan_number:GNU12345
+        status: 0 -> Deactivated, 1-> Activated/Approved  // {optional}
+        store_url:https://www.store.com            // {optional}
+        description:values                        // {optional}
+        street:street1                         // {optional}
+        pincode_id:1                              // {optional}
+        state:gujarat                             // {optional}
+        account_number:123456789265421                   // {optional}
+        ifsc_code:DFG34557WD                      // {optional}
+        account_name:ekart seller                       // {optional}
+        bank_name:SBI                             // {optional}
+        old_password:                             // {optional}
+        update_password:                          // {optional}
+		confirm_password:                         // {optional}
+		store_logo: image_file  { jpg, png, gif, jpeg } // {optional -> do not set if no change}
+		national_id_card: image_file  { jpg, png, gif, jpeg } // {optional -> do not set if no change}
+		address_proof: image_file  { jpg, png, gif, jpeg }  // {optional -> do not set if no change}
+		latitude:value                       // {optional}
+		longitude:value                         // {optional}
+        
+23.get_delivery_boys
+    accesskey:90336
+    get_delivery_boys:1
+    pincode_id:1
+
+24.change_status
+    accesskey:90336
+    seller_id:114
+    status:1/0
+    change_status:1
+	
+
+
+ 25.add_pickup_location
+    accesskey:90336
+    add_pickup_location:1
+    pickup_location:madhar kutch
+    seller_id:1     
+    name:madhar bhuj
+    email:test@test.com
+    phone:1234567890
+    city:bhuj
+    state:gujarat,
+    country:india
+    pin_code:370465
+    address:#270,madhar par highway
+    address_2:office number 5 60  //{optional}
+    latitude:67.489797979    //{optional}
+    longitude:68.49789797   //{optional}
+
+
+ 26.get_pickup_location
+    accesskey:90336
+    get_pickup_location:1
+    seller_id:2
+    search:test {optional}
+    limit:10  {optional}
+    offset:1 {optional}
+
+
+27.create_shiprocket_order
+
+    accesskey:90336
+    create_shiprocket_order:1
+    order_item_ids:288,286
+    order_id:1457
+    seller_id:2
+    pickup_locations: mirzapar-bhuj-1   //pickup location 
+    weight:2                            // wieght of parcel in kg
+    height:2                            // height of parcel in cms
+    breadth:2                           // breadth of parcel in cms
+    length:2                           // length of parcel in cms
+    subtotal:36.9                       //total of selected items total
+
+28 Send Pickup Request
+    accesskey:90336
+    send_pickup_request:1
+    shipment_id:123456789
+    seller_id:1
+
+
+29  tracker order
+    accesskey:90336
+    send_pickup_request:1
+    shipment_id:123456789
+    seller_id:1
+
+30 cancle_order
+    accesskey:90336
+    cancle_order:1
+    shipment_id:123456789
+    seller_id:1
+
+31 get_slug
+    accesskey:90336
+    get_slug:1
+    seller_id:1
+ 
+32 get_shipping_type
+    accesskey:90336
+    get_shipping_type:1
+
+33. delete_variant_images
+    accesskey:90336
+    delete_variant_images:1
+    variant_id:1
+    image:1     // {index of image array}
+
+
+34.generate_awb
+generate_awb:1
+  accesskey:90336
+  shipment_id:1897987
+  seller_id:1

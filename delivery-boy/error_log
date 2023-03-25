@@ -1,0 +1,104 @@
+[16-Jan-2022 00:11:01 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[16-Jan-2022 00:11:01 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[16-Jan-2022 00:11:01 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[16-Jan-2022 00:11:01 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[16-Jan-2022 00:11:01 Asia/Kolkata] PHP Warning:  Illegal string offset 'balance' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 258
+[16-Jan-2022 00:11:01 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/home.php on line 65
+[16-Jan-2022 00:11:01 Asia/Kolkata] PHP Warning:  Illegal string offset 'bonus' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 269
+[17-Jan-2022 19:13:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[17-Jan-2022 19:13:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[17-Jan-2022 19:13:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[17-Jan-2022 19:13:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[17-Jan-2022 19:13:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'balance' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 258
+[17-Jan-2022 19:13:34 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/home.php on line 65
+[17-Jan-2022 19:13:34 Asia/Kolkata] PHP Warning:  Illegal string offset 'bonus' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 269
+[18-Jan-2022 07:25:57 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[18-Jan-2022 07:25:57 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[18-Jan-2022 07:25:57 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[18-Jan-2022 07:25:57 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[18-Jan-2022 07:25:57 Asia/Kolkata] PHP Warning:  Illegal string offset 'balance' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 258
+[18-Jan-2022 07:25:57 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/home.php on line 65
+[18-Jan-2022 07:25:57 Asia/Kolkata] PHP Warning:  Illegal string offset 'bonus' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 269
+[19-Jan-2022 18:03:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[19-Jan-2022 18:03:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[19-Jan-2022 18:03:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[19-Jan-2022 18:03:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[19-Jan-2022 18:03:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'balance' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 258
+[19-Jan-2022 18:03:53 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/home.php on line 65
+[19-Jan-2022 18:03:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'bonus' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 269
+[19-Jan-2022 05:34:53 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/orders.php:28) in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 2
+[19-Jan-2022 18:04:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[19-Jan-2022 18:04:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[19-Jan-2022 05:48:55 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/order-detail.php:20) in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 2
+[19-Jan-2022 18:18:55 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[19-Jan-2022 18:18:55 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[25-Jan-2022 00:02:40 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[25-Jan-2022 00:02:40 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[25-Jan-2022 00:02:40 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[25-Jan-2022 00:02:40 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[25-Jan-2022 00:02:40 Asia/Kolkata] PHP Warning:  Illegal string offset 'balance' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 258
+[25-Jan-2022 00:02:40 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/home.php on line 65
+[25-Jan-2022 00:02:40 Asia/Kolkata] PHP Warning:  Illegal string offset 'bonus' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 269
+[25-Jan-2022 00:14:21 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/order-detail.php:20) in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 2
+[25-Jan-2022 12:44:21 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[25-Jan-2022 12:44:21 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[25-Jan-2022 22:19:00 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[25-Jan-2022 22:19:00 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[25-Jan-2022 22:19:00 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[25-Jan-2022 22:19:00 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[25-Jan-2022 22:19:00 Asia/Kolkata] PHP Warning:  Illegal string offset 'balance' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 258
+[25-Jan-2022 22:19:00 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/home.php on line 65
+[25-Jan-2022 22:19:00 Asia/Kolkata] PHP Warning:  Illegal string offset 'bonus' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 269
+[26-Jan-2022 21:35:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[26-Jan-2022 21:35:54 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 38
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 38
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 38
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Illegal string offset 'value' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 243
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 71
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 72
+[27-Jan-2022 14:34:15 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home3/wrteamin/public_html/ecartmultivendor/includes/crud.php on line 103
+[30-Jan-2022 20:04:48 Asia/Kolkata] PHP Warning:  Illegal string offset 'name' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 141
+[30-Jan-2022 20:04:48 Asia/Kolkata] PHP Warning:  Illegal string offset 'mobile' in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/header.php on line 142
+[30-Jan-2022 20:04:48 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[30-Jan-2022 20:04:48 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 234
+[30-Jan-2022 20:04:48 Asia/Kolkata] PHP Warning:  Illegal string offset 'balance' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 258
+[30-Jan-2022 20:04:48 Asia/Kolkata] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home3/wrteamin/public_html/ecartmultivendor/delivery-boy/home.php on line 65
+[30-Jan-2022 20:04:48 Asia/Kolkata] PHP Warning:  Illegal string offset 'bonus' in /home3/wrteamin/public_html/ecartmultivendor/includes/custom-functions.php on line 269

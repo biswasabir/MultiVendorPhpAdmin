@@ -1,0 +1,38 @@
+Steps to bulk upload of products
+1. Firstly, read Notes carefully.
+2. Add image from media module and copy path from there.
+3. Create .csv file for product as explain below:
+
+        Note - * Indicates Mandatory Fields
+
+        Product Name * -> Name of the product. 
+        Category ID * -> Category ID of the product (You can find Category ID in Categories section).
+        Subcategory ID -> Subcategory ID of the product (You can find Subcategory ID in Subcategories section).
+        Indicator * -> 0 - None, 1 - Veg, 2 - Non-Veg.
+        Manufacturer -> Manufacturer of the product.
+        Made in -> Product Made In.
+        Is Returnable * -> 0 - No, 1 - Yes.
+        Is cancel-able * -> 0 - No, 1 - Yes.
+        Till which status -> If Is cancel-able than till wich status.
+        Description * -> Description about product
+        Image * -> Image path of the product (you can get from Media section)
+        Deliverable_Type -> add one of the following value as required to your product.
+                            "all" - for product is delivarable in all pincodes which are in Database.
+                            "included" - for product is delivarable in these included pincodes which are in Database.
+                            "excluded" - for product is delivarable except this pincodes which are in Database.
+        Pincodes -> pincode_id list as per the above option(Deliverable_Type) you selected. And it should be comma separated like 1,2,3
+        tax_id -> Leave it blank if don't want to apply tax. You can find tax_id from products > taxes section
+        -> Add following columns for varients of products. you need to add this columns in continued(You can check example on sample file)
+        -> for example, If you want to add 3 varients then you need to add this column 3 times. Product must have 1 varient. 
+
+            Type * -> Type of the variant (must be packet / loose case sensitive).
+            Measurement * -> Measurement of the variant.
+            Measurement Unit ID * - > Measurement Unit ID of the variant.
+            Price -> * Price of the variant. (Must be greater than discounted price).
+            Discounted Price * -> Discounted Price of the variant 0 if no discount. (Must be less than price).
+            Serve For * -> Availability of the variant (Must be Sold Out / Available case sensitive).
+            Stock * -> Stock available.
+            Stock Unit ID * -> Stock Unit ID of the product variant.
+
+        Note - It is necessary to fill in one of the fields from Deliverable_Type and Pincodes.
+        Note - Do not set empty field. if you have no value on specific column then add "0"(zero) in that column.

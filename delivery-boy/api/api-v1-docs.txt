@@ -1,0 +1,163 @@
+API URL -->> 
+	https://ecartmultivendor.wrteam.in/delivery-boy/api/api-v1.php
+
+----------------------------------------------------------
+APIs list 
+----------------------------------------------------------
+
+1. login
+2. get_delivery_boy_by_id  
+3. get_orders_by_delivery_boy_id
+4. get_fund_transfers 
+5. update_delivery_boy_profile
+6. update_order_status
+7. delivery_boy_forgot_password
+8. get_notifications
+9. update_delivery_boy_fcm_id
+10. check_delivery_boy_by_mobile
+11. send_withdrawal_request
+12. get_withdrawal_requests
+13. change_availability
+14. get_orders
+15. bulk_status_update
+16. update_bulk_order_items
+
+------------------------------------------
+What parameters to be Passed?  See here >>
+------------------------------------------
+
+Use POST method to pass the parameters
+
+1. login
+    accesskey:90336
+    login:1
+    mobile:9876543210
+    password:1234567
+    fcm_id:YOUR_FCM_ID
+
+2. get_delivery_boy_by_id
+    accesskey:90336
+    get_delivery_boy_by_id:1
+    delivery_boy_id:78
+    
+3.get_orders_by_delivery_boy_id
+    accesskey:90336
+    get_orders_by_delivery_boy_id:1
+    delivery_boy_id:1
+    order_item_id:12        // {optional}
+    order_id:12608          // {optional}
+    limit:10                // {optional}
+    offset:0                // {optional}
+    filter_order:received | processed | shipped | delivered | cancelled | returned    // {optional}
+    
+4. get_fund_transfers
+    accesskey:90336
+    get_fund_transfers:1
+    delivery_boy_id:82
+    offset:0        // {optional}
+    limit:10        // {optional}
+    sort:id         // {optional}
+    order:DESC / ASC            // {optional}
+    search:search_value         // {optional}
+    
+5. update_delivery_boy_profile
+    accesskey:90336
+    update_delivery_boy_profile:1
+    delivery_boy_id:87
+    name:any value       
+    address:Jl Komplek Polri 
+    dob:1992-07-07
+    bank_name:SBI
+    account_number: 12345678976543
+    account_name: any value
+    ifsc_code:ASDFGH45
+    new_driving_license: image_file  { jpg, png, gif, jpeg }
+    new_national_identity_card: image_file  { jpg, png, gif, jpeg }
+    other_payment_info: value       // {optional}
+    old_password:123456             // {optional}
+    update_password:12345           // {optional}
+    confirm_password:12345          // {optional}
+        
+6. update_order_status
+    accesskey:90336
+    update_order_status:1
+    order_id:169
+    order_item_id:12577
+    status:received | processed | shipped | delivered | cancelled | returned
+    delivery_boy_id:40
+	
+7. delivery_boy_forgot_password
+    accesskey:90336
+    mobile:8989898989
+    password:1234567
+    delivery_boy_forgot_password:1
+
+8. get_notifications
+    accesskey:90336
+    get_notifications:1
+    delivery_boy_id:114
+    offset:0            // {optional}
+    limit:10            // {optional}
+    sort:id             // {optional}
+    order:DESC / ASC            // {optional}
+    search:search_value         // {optional}
+    
+9. update_delivery_boy_fcm_id
+    accesskey:90336
+    delivery_boy_id:114
+    fcm_id:YOUR_FCM_ID
+    update_delivery_boy_fcm_id:1
+    
+10. check_delivery_boy_by_mobile
+    accesskey:90336
+    check_delivery_boy_by_mobile:1
+    mobile:8989898989
+
+11.send_withdrawal_request
+    accesskey:90336
+    send_withdrawal_request:1
+    type:user/delivery_boy
+    type_id:3
+    amount:1000
+    message:Message     // {optional}
+
+12.get_withdrawal_requests
+    accesskey:90336
+    get_withdrawal_requests:1
+    type:user/delivery_boy
+    data_type:withdrawal_requests / fund_transfers  // {optional}
+    type_id:3
+    offset:0 {optional}
+    limit:5 {optional}
+    sort:delivery_boy_id          // {optional}
+    order:DESC / ASC              // {optional}
+
+13.change_availability
+    accesskey:90336
+    delivery_boy_id:114
+    is_available:1/0
+    change_availability:1
+
+14. get_orders
+    accesskey:90336
+    get_orders:1
+    delivery_boy_id:1
+    order_id:12608          // {optional}
+    start_date:2020-06-05   // {optional} {YYYY-mm-dd}
+    end_date:2020-06-05     // {optional} {YYYY-mm-dd}
+    limit:10                // {optional}
+    offset:0                // {optional}
+    filter_order:received | processed | shipped | delivered | cancelled | returned | awaiting_payment    // {optional}
+
+15. bulk_status_update
+    accesskey:90336
+    bulk_status_update:1
+    item_ids:3,4
+    status:processed
+
+16. update_bulk_order_items
+    accesskey:90336
+    update_bulk_order_items:1
+    order_items:12577,12578
+    delivery_boy_id:40
+    status:received | processed | shipped | delivered | cancelled | returned

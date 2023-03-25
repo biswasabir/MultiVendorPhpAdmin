@@ -1,0 +1,7 @@
+Note - * Indicates Mandatory Fields 
+
+Name * -> Name of the areas. 
+City_id *   -> City Id
+pincode_id    -> Pincode Id
+Minimum_free_delivery_order_amount *  -> 
+Delivery_charges *    ->

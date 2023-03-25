@@ -1,0 +1,4 @@
+Note - * Indicates Mandatory Fields 
+
+pincode * -> Pincode of the cities.
+status * -> status of the pincode.

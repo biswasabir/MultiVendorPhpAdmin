@@ -1,0 +1,28 @@
+[14-Apr-2022 05:59:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'DB_USER'@'localhost' (using password: YES) in /home2/shoprati/public_html/includes/crud.php on line 39
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'DB_USER'@'localhost' (using password: YES) in /home2/shoprati/public_html/includes/crud.php on line 39
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'DB_USER'@'localhost' (using password: YES) in /home2/shoprati/public_html/includes/crud.php on line 39
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 72
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 73
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 104
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 72
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 73
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 104
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'DB_USER'@'localhost' (using password: YES) in /home2/shoprati/public_html/includes/crud.php on line 39
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 72
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 73
+[14-Apr-2022 11:29:04 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home2/shoprati/public_html/includes/crud.php on line 104
+[14-Apr-2022 12:09:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'username' in /home2/shoprati/public_html/header.php on line 175
+[14-Apr-2022 12:09:53 Asia/Kolkata] PHP Warning:  Illegal string offset 'email' in /home2/shoprati/public_html/header.php on line 176
+[10-Jul-2022 07:19:26 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'shoprati_db'@'localhost' (using password: YES) in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 39
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'shoprati_db'@'localhost' (using password: YES) in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 39
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'shoprati_db'@'localhost' (using password: YES) in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 39
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 72
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 73
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 104
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 72
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 73
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 104
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'shoprati_db'@'localhost' (using password: YES) in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 39
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 72
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 73
+[10-Jul-2022 12:49:26 Asia/Kolkata] PHP Warning:  Database::sql(): Couldn't fetch mysqli in /home/fzresult/public_html/ecart.fzme.in/includes/crud.php on line 104

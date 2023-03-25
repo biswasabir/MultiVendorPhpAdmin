@@ -1,0 +1,3 @@
+Note - * Indicates Mandatory Fields 
+
+Name * -> Name of the cities. 
